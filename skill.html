@@ -6,6 +6,19 @@
   <title>My Skills</title>
   <link rel="stylesheet" href="css/skills.css">
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <style>
+   
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    .skills-container + .skills-container {
+      margin-top: 30px; 
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
@@ -15,6 +28,8 @@
 
     <section class="skills">
         <h1 class="title">My Skills</h1>
+        
+       
         <div class="skills-container">
           <div class="skill-card">
             <i class="bx bxl-html5 skill-icon"></i>
@@ -31,10 +46,27 @@
             <h3>Java</h3>
             <p>Proficient in backend development and object-oriented programming using Java.</p>
           </div>
+        </div>
+
+        
+        <div class="skills-container">
+        
           <div class="skill-card">
             <i class="bx bxl-javascript skill-icon"></i>
             <h3>JavaScript</h3>
             <p>Skilled in creating dynamic and interactive functionalities for web applications.</p>
+          </div>
+         
+          <div class="skill-card">
+            <i class="bx bxl-mysql skill-icon"></i>
+            <h3>MySQL</h3>
+            <p>Experience in designing and managing relational databases using MySQL, including query optimization and data integrity.</p>
+          </div>
+         
+          <div class="skill-card">
+            <i class="bx bxl-spring-boot skill-icon"></i>
+            <h3>Spring Boot</h3>
+            <p>Strong knowledge of building backend services and applications with Spring Boot, focusing on RESTful APIs and microservices architecture.</p>
           </div>
         </div>
       </section>
@@ -44,4 +76,4 @@
       </footer>
     </div>
   </body>
-  </html>   
+</html>

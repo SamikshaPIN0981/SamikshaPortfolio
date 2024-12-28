@@ -92,3 +92,30 @@
     box-shadow: 0 10px 25px rgba(255, 87, 34, 0.5);
   }
   
+  .footer {
+    background-color: black;
+    padding: 20px 12%;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hire-container h1 {
+      font-size: 48px;
+    }
+  
+    .hire-container p {
+      font-size: 18px;
+    }
+  
+    .hire-container .btn-contact {
+      font-size: 18px;
+      padding: 12px 30px;
+    }
+  }

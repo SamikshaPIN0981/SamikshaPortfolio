@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif; /* Same stylish font */
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* Header */
+  .header {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 12%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .logo {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s ease;
+  }
+  
+  .header .logo:hover {
+    color: orangered;
+    text-shadow: 0 0 15px orangered, 0 0 30px orangered;
+  }
+  
+  .header .logo span {
+    color: orangered;
+  }

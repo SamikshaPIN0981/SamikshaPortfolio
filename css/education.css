@@ -116,4 +116,25 @@ body {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .timeline-item {
+        padding: 20px;
+    }
+
+    .degree {
+        font-size: 24px;
+    }
+
+    .institution {
+        font-size: 18px;
+    }
+
+    .details {
+        font-size: 16px;
+    }
+}
 
